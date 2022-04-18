@@ -3,18 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 6020",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "markdown-to-jsx": "^7.1.7",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "^2.1.9"
   },
   "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
+    "@types/node": "^17.0.24",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
   }
 }
